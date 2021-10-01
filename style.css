@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Quicksand:wght@300&display=swap");
+
+/* VAR */
+:root {
+  --font1: "Nunito", sans-serif;
+  --font2: "Quicksand", sans-serif;
+  --dark-blue: #41436a;
+  --raspberry: #984063;
+  --coral: #f64668;
+  --peach: #fe9677;
+}
+
+* {
+  /*  Global reset of margin and padding to overwrite default styles */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--peach);
+  opacity: 80%;
+  font-family: var(--font2);
+  color: aliceblue;
+}
+
+header {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#nav-bar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  background-color: var(--raspberry);
+  opacity: 90%;
+  border-right: solid;
+  border-color: var(--dark-blue);
+}
+
+#nav-bar ul {
+  height: 88%;
+  padding: 0px;
+}
+
+#nav-bar li {
+  position: relative;
+  list-style: none;
+  border-color: var(--dark-blue);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+#nav-bar a {
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section {
+  padding-bottom: 30px;
+}
