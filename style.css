@@ -29,7 +29,7 @@ header {
   padding: 10px;
 }
 
-#nav-bar {
+#navbar {
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -42,14 +42,14 @@ header {
   border-color: var(--dark-blue);
 }
 
-#nav-bar ul {
+#navbar ul {
   height: 88%;
   padding: 0px;
   overflow-y: auto;
   overflow-x: hidden
 }
 
-#nav-bar li {
+#navbar li {
   position: relative;
   list-style: none;
   border-bottom: 1px solid white;
@@ -58,14 +58,14 @@ header {
   padding: 30px;
 }
 
-#nav-bar a {
+#navbar a {
   display: block;
   font-size: 40px;
   text-decoration: none;
   color: aliceblue;
 }
 
-#nav-bar header {
+#navbar header {
   text-align: center;
   border-bottom: 1px solid white;
   padding: 20px;
@@ -107,4 +107,10 @@ section {
 
 p > a {
   text-decoration: none;
+}
+
+li {
+  font-size: 30px;
+  list-style: none;
+  padding: 20px;
 }
